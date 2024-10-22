@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.html-card {
+    background: linear-gradient(135deg, #ff0844, #ffb199);
+}
+
+.css-card {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.js-card {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+}
